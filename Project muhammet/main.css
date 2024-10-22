@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Ubuntu", sans-serif;
+}
+
+
+
+.conteiner {
+    margin: 0 auto;
+    width: 1230px;
+}
+
+/* Sapka */
+
+
+header {
+    margin: 33px 0;
+}
+
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.list {
+    display: flex;
+    list-style: none;
+    gap: 64px;
+    font-size: 16px;
+}
+
+
+.logo1 {
+    width: 130px;
+    height: 22px;
+    gap: 10px;
+}
+
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+.iphone_div {
+    display: flex;
+    gap: 10px;
+}
+
+
+.iphone_hat {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.chat_div {
+    display: flex;
+    gap: 10px;
+}
+
+
+.chat_hat {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.headerdiv {
+    display: flex;
+}
+
+
+main {
+    width: 1920px;
+    height: 988px;
+    top: 92px;
+}
+
+
+.mainsection {
+    height: 988PX;
+    background-image: url(./Navbar/bg-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 220px;
+    padding-bottom: 120px;
+}
+
+
+.h1 {
+    color: #fff;
+    font-size: 72px;
+}
+
+
+.x {
+    color: rgba(255, 90, 48, 1);
+    font-size: 72px;
+}
+
+
+.hat2 {
+    color: #fff;
+    font-size: 20px;
+    row-gap: 40px;
+    margin-bottom: 61px;
+}
+
+
+.buttondiv {
+    width: 526px;
+    height: 52px;
+    margin-bottom: 179PX;
+}
+
+
+.button1 {
+    width: 278px;
+    height: 52px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    background-color: inherit;
+    color: #fff;
+    
+    
+}
+
+
+.button2 {
+    width: 224px;
+    height: 52px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(255, 90, 48, 1);
+    gap: 40px;
+}
+
+
+.listglawna {
+    display: flex;
+    gap: 4px;
+}
+
+
+.talt {
+    list-style: none;
+    width: 178px;
+    height: 54px;
+    gap: 12px;
+}
+
+
+.san {
+    width: 32px;
+    height: 42px;
+    font-size: 28px;
+    color: #fff;
+}
+
+
+.san2 {
+    opacity: 60%;
+}
+
+
+hr {
+   border: 1px solid #fff; 
+   border-radius: 2px;
+}
+
+
+.linya {
+    opacity: 30%;
+}
+
+
+.h1div {
+    margin-bottom: 24PX;
+}
+
+
+/* SECTION2 */
+
+
+.yaz {
+    text-align: center;
+    font-size: 46px;
+}
+
+
+.Usa1 {
+    text-align: center;
+    font-size: 18px;
+    color: #787A80;
+}
+
+
+.widiocon {
+    background-image: url(Navbar/image.png);
+}
